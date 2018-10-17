@@ -84,6 +84,7 @@ public final class Strings {
    *     which case the input string is always returned.
    * @param padChar the character to insert at the beginning of the result until the minimum length
    *     is reached
+   * @ requires minLength >= 0
    * @return the padded string
    */
   public static String padStart(String string, int minLength, char padChar) {

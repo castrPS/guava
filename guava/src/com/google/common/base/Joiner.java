@@ -145,6 +145,7 @@ public class Joiner {
    * Iterable)}, except that it does not throw {@link IOException}.
    *
    * @since 11.0
+   * @ requires builder != null
    */
   @CanIgnoreReturnValue
   public final StringBuilder appendTo(StringBuilder builder, Iterator<?> parts) {
